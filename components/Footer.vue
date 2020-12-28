@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
     <footer
-      class="flex flex-col items-center justify-around h-56 -mt-56 text-center border-t border-gray"
+      class="flex flex-col items-center justify-around h-64 mt-8 text-center border-t border-gray"
     >
       <div>
         <div class="text-xl font-bold">Let's Connect</div>
