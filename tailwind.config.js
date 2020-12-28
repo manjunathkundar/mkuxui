@@ -5,11 +5,13 @@ module.exports = {
   },
   purge: [],
   theme: {
+    fontFamily: false,
     colors: {
-      black: '#000000',
+      black: '#1A202E',
       white: '#FFFFFF',
-      'dark-pink': '#751A3D',
       pink: '#D61F69',
+      'dark-pink': '#751A3D',
+      gray: '#E2E8F0',
     },
     extend: {},
   },

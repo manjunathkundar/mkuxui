@@ -1,12 +1,13 @@
 <template>
-  <div class="container mx-auto bg-pink">
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, modi.
-    Fugiat repellendus accusamus expedita, iure perferendis, asperiores
-    similique doloremque excepturi totam animi impedit sunt est officiis
-    obcaecati praesentium laborum alias.
+  <div class="container mx-auto">
+    I’m Manjunath, a Product UX/UI Designer at Emerhub & Freelancer. I lead and
+    design products that people love. I enjoy creating user-centric, delightful,
+    and human experiences.
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'Index',
+}
 </script>
