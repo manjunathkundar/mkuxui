@@ -4,10 +4,12 @@
       <div class="w-11/12 pr-16 text-3xl leading-relaxed">
         <h1>
           I’m <strong>Manjunath</strong>, a Product UX/UI Designer at
-          <a href="#" class="text-pink">Emerhub</a> & Freelancer. I
-          <strong>lead</strong> and <strong>design</strong> products that people
-          love. I enjoy creating user-centric, delightful, and human
-          experiences.
+          <a href="https://emerhub.com/" target="_blank" class="text-pink">
+            Emerhub
+          </a>
+          & Freelancer. I <strong>lead</strong> and
+          <strong>design</strong> products that people love. I enjoy creating
+          user-centric, delightful, and human experiences.
         </h1>
 
         <h5 class="mt-8 text-lg">
