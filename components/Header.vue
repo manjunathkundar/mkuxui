@@ -106,3 +106,9 @@ export default {
   name: 'Header',
 }
 </script>
+
+<style>
+.nuxt-link-exact-active {
+  @apply text-pink;
+}
+</style>
