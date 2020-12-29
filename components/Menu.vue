@@ -70,7 +70,7 @@
 export default {
   data: () => {
     return {
-      showMenu: !false,
+      showMenu: false,
       links: [
         { name: 'Home', to: '/' },
         { name: 'About', to: '/about' },

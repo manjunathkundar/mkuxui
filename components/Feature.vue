@@ -1,7 +1,11 @@
 <template>
-  <section class="flex items-center justify-between w-full py-8">
-    <div class="">
-      <div class="w-11/12 pr-16 text-3xl leading-relaxed">
+  <section
+    class="flex flex-col-reverse items-center justify-between w-full py-4 lg:py-8 lg:flex-row"
+  >
+    <div>
+      <div
+        class="mt-8 text-2xl leading-relaxed lg:text-3xl lg:w-11/12 lg:mt-0 lg:pr-16"
+      >
         <h1>
           I’m <strong>Manjunath</strong>, a Product UX/UI Designer at
           <a href="https://emerhub.com/" target="_blank" class="text-pink">
@@ -12,13 +16,13 @@
           user-centric, delightful, and human experiences.
         </h1>
 
-        <h5 class="mt-8 text-lg">
+        <h5 class="mt-4 text-lg lg:mt-8">
           Former Design Lead at
           <a href="#" class="text-pink">Manipal Technologies</a>
         </h5>
       </div>
     </div>
-    <img src="/manjunath.jpg" alt="Manjunath" class="mr-3 profile" />
+    <img src="/manjunath.jpg" alt="Manjunath" class="mr-3 rounded profile" />
   </section>
 </template>
 
