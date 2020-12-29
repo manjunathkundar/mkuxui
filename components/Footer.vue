@@ -5,13 +5,16 @@
     >
       <div>
         <div class="text-xl font-bold">Let's Connect</div>
-        <div class="flex items-center mt-2">
-          Feel free to reach out for collaborations or just a friendly hello
+        <div class="mt-2">
+          <span class="inline-block"
+            >Feel free to reach out for collaborations or just a friendly
+            hello</span
+          >
           <svg
             width="16"
             height="16"
             viewBox="0 0 16 16"
-            class="ml-2"
+            class="inline-block"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
