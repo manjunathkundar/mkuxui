@@ -15,28 +15,20 @@ export default {
     return {
       studies: [
         {
-          name: 'Content Marketing',
           link: '#',
           image: '/case-study/1.png',
-          background: 'dark',
         },
         {
-          name: 'Content Marketing',
           link: '#',
           image: '/case-study/2.png',
-          background: 'light',
         },
         {
-          name: 'Content Marketing',
           link: '#',
           image: '/case-study/3.png',
-          background: 'light',
         },
         {
-          name: 'Content Marketing',
           link: '#',
           image: '/case-study/4.png',
-          background: 'light',
         },
       ],
     }
