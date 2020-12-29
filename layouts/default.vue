@@ -14,6 +14,7 @@ body {
 }
 
 .container {
+  max-width: 950px;
   @apply w-8/12;
 }
 </style>
