@@ -15,6 +15,12 @@ body {
 
 .container {
   max-width: 950px;
-  @apply w-8/12;
+  @apply px-6 w-full;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    @apply px-0;
+  }
 }
 </style>
