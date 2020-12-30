@@ -3,7 +3,7 @@
     <footer
       class="flex flex-col items-center justify-around h-64 mt-8 text-center border-t border-gray"
     >
-      <div>
+      <div id="contact-section">
         <div class="text-xl font-bold">Let's Connect</div>
         <div class="mt-2">
           <span class="inline-block"
