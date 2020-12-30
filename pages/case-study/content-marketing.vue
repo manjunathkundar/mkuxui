@@ -79,8 +79,8 @@
         </div>
       </section>
       <section class="py-8 mt-8 md:py-16">
-        <div class="container mx-auto">
-          <div class="mx-auto md:w-10/12">
+        <div class="mx-auto md:container">
+          <div class="px-4 mx-auto md:px-0 md:w-10/12">
             <h2 class="text-5xl font-bold leading-tight md:leading-none">
               Jumpstarting Research
             </h2>
@@ -93,6 +93,15 @@
               years in this young,
             </p>
           </div>
+
+          <no-ssr>
+            <vue-tiny-slider v-bind="tinySliderOptions" class="mt-8">
+              <img src="/case-study/slider/slider1.png" alt="Slide 1" />
+              <img src="/case-study/slider/slider1.png" alt="Slide 2" />
+              <img src="/case-study/slider/slider1.png" alt="Slide 3" />
+              <img src="/case-study/slider/slider1.png" alt="Slide 4" />
+            </vue-tiny-slider>
+          </no-ssr>
         </div>
       </section>
     </div>
@@ -100,5 +109,19 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      tinySliderOptions: {
+        autoplay: true,
+        mouseDrag: true,
+        loop: true,
+        items: 1,
+        swipeAngle: 45,
+        controls: false,
+        navPosition: 'bottom',
+      },
+    }
+  },
+}
 </script>

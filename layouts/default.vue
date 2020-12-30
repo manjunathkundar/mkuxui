@@ -46,4 +46,20 @@ body {
     @apply px-0;
   }
 }
+
+.tns-nav {
+  @apply -ml-1 flex justify-center mt-6;
+}
+
+.tns-nav button {
+  @apply p-1 rounded-full bg-gray ml-2;
+}
+
+.tns-nav .tns-nav-active {
+  @apply bg-pink;
+}
+
+.tns-outer > button {
+  @apply hidden;
+}
 </style>

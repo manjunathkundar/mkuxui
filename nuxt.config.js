@@ -17,6 +17,11 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css',
+      },
     ],
   },
 
@@ -24,7 +29,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [{ src: '~/plugins/vue-tiny-slider.js', mode: 'client' }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
