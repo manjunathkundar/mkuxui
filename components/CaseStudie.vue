@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="study.link">
+  <nuxt-link :to="link">
     <img :src="study.image" :alt="study.name" />
   </nuxt-link>
 </template>
@@ -11,6 +11,11 @@ export default {
     study: {
       type: Object,
       default: () => {},
+    },
+  },
+  computed: {
+    link() {
+      return ('/case-study/' + this.study.link).replace('//', '/')
     },
   },
 }
