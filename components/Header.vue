@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container">
     <header class="flex items-center justify-between h-20 text-xs font-bold">
       <nuxt-link to="/">
         <svg

@@ -36,9 +36,10 @@ body {
   @apply text-black;
 }
 
-.container {
+.container,
+.tns-outer {
   max-width: 950px;
-  @apply px-6 w-full;
+  @apply px-6 w-full mx-auto;
 }
 
 @media (min-width: 1024px) {

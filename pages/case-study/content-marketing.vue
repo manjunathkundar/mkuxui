@@ -59,7 +59,7 @@
         </div>
       </section>
       <section class="py-8 mt-8 text-white bg-dark-gray md:py-16">
-        <div class="container mx-auto">
+        <div class="container">
           <div class="mx-auto md:w-10/12">
             <h2 class="text-5xl font-bold leading-tight md:leading-none">
               The Problem
@@ -79,7 +79,7 @@
         </div>
       </section>
       <section class="py-8 mt-8 md:py-16">
-        <div class="container mx-auto">
+        <div class="container">
           <div class="mx-auto md:w-10/12">
             <h2 class="text-5xl font-bold leading-tight md:leading-none">
               Jumpstarting Research
@@ -106,7 +106,7 @@
         </div>
       </section>
       <section class="py-8 mt-8 md:py-16 bg-gray">
-        <div class="container mx-auto">
+        <div class="container">
           <div class="mx-auto md:w-10/12">
             <h2 class="text-5xl font-bold leading-tight md:leading-none">
               Jumpstarting Research
@@ -123,11 +123,30 @@
           src="/case-study/slider/slider1.png"
           alt="Slide 4"
         />
-        <div
-          class="container mx-auto mt-2 text-sm md:text-center text-dark-gray"
-        >
+        <div class="container mt-2 text-sm md:text-center text-dark-gray">
           Fig: Competitive Analysis to identify best practices and opportunity
           areas.
+        </div>
+      </section>
+      <section class="container items-start py-8 mx-auto mt-8 md:py-16 md:flex">
+        <div class="md:w-1/2">
+          <h2 class="text-5xl font-bold leading-tight md:leading-none">
+            Jumpstarting Research
+          </h2>
+          <p class="mt-8">
+            My most recent work with
+            <a href="#" class="font-bold text-pink">Emerhub</a> where I designed
+            for some of its core offerings like Incorporation, Payroll, Registry
+            with a global reach that helped integrate all their needs under one
+            roof. Having led the module phase for one years in this young,
+          </p>
+        </div>
+        <div class="md:w-1/2 md:pl-8">
+          <img
+            class="mx-auto mt-8 md:h-full md:overflow-hidden md:mt-0"
+            src="/case-study/slider/slider1.png"
+            alt="Slide 4"
+          />
         </div>
       </section>
     </div>
