@@ -1,7 +1,7 @@
 <template>
-  <a href="#">
+  <nuxt-link :to="study.link">
     <img :src="study.image" :alt="study.name" />
-  </a>
+  </nuxt-link>
 </template>
 
 <script>

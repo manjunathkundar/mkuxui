@@ -15,19 +15,19 @@ export default {
     return {
       studies: [
         {
-          link: '#',
+          link: '/case-study/content-marketing',
           image: '/case-study/1.png',
         },
         {
-          link: '#',
+          link: '/case-study/content-marketing',
           image: '/case-study/2.png',
         },
         {
-          link: '#',
+          link: '/case-study/content-marketing',
           image: '/case-study/3.png',
         },
         {
-          link: '#',
+          link: '/case-study/content-marketing',
           image: '/case-study/4.png',
         },
       ],
