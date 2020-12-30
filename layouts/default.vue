@@ -1,10 +1,31 @@
 <template>
-  <div>
+  <div :class="[isCaseStudyPage ? 'bg-green' : 'bg-white']">
     <Header />
     <Nuxt />
     <Footer />
   </div>
 </template>
+
+<script>
+export default {
+  name: 'Default',
+  data: () => {
+    return {
+      isCaseStudyPage: false,
+    }
+  },
+  watch: {
+    $route() {
+      this.isCaseStudyPage =
+        this.$nuxt.$route.path.split('/')[1].trim() === 'case-study'
+    },
+  },
+  mounted() {
+    this.isCaseStudyPage =
+      this.$nuxt.$route.path.split('/')[1].trim() === 'case-study'
+  },
+}
+</script>
 
 <style>
 html,
