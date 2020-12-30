@@ -1,8 +1,8 @@
 <template>
-  <div class="container mx-auto">
+  <main class="container mx-auto">
     <Feature />
     <CaseStudies />
-  </div>
+  </main>
 </template>
 
 <script>

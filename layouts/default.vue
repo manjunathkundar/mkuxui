@@ -1,7 +1,9 @@
 <template>
-  <div :class="[isCaseStudyPage ? 'bg-green' : 'bg-white']">
-    <Header />
-    <Nuxt />
+  <div>
+    <div :class="[isCaseStudyPage ? 'bg-green' : 'bg-white']">
+      <Header />
+      <Nuxt />
+    </div>
     <Footer />
   </div>
 </template>
