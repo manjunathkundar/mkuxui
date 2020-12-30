@@ -149,6 +149,39 @@
           />
         </div>
       </section>
+      <section class="container pt-8 text-center border-t border-gray">
+        <h4 class="text-base font-bold uppercase">MORE PROJECTS</h4>
+        <div class="grid grid-cols-2 gap-4 py-8 md:gap-12 md:grid-cols-4">
+          <nuxt-link to="#">
+            <img
+              class="w-full"
+              src="/case-study/other-project.png"
+              alt="Other Project"
+            />
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              class="w-full"
+              src="/case-study/other-project.png"
+              alt="Other Project"
+            />
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              class="w-full"
+              src="/case-study/other-project.png"
+              alt="Other Project"
+            />
+          </nuxt-link>
+          <nuxt-link to="#">
+            <img
+              class="w-full"
+              src="/case-study/other-project.png"
+              alt="Other Project"
+            />
+          </nuxt-link>
+        </div>
+      </section>
     </div>
   </main>
 </template>
