@@ -79,8 +79,8 @@
         </div>
       </section>
       <section class="py-8 mt-8 md:py-16">
-        <div class="mx-auto md:container">
-          <div class="px-4 mx-auto md:px-0 md:w-10/12">
+        <div class="container mx-auto">
+          <div class="mx-auto md:w-10/12">
             <h2 class="text-5xl font-bold leading-tight md:leading-none">
               Jumpstarting Research
             </h2>
@@ -93,7 +93,8 @@
               years in this young,
             </p>
           </div>
-
+        </div>
+        <div class="md:container md:mx-auto">
           <no-ssr>
             <vue-tiny-slider v-bind="tinySliderOptions" class="mt-8">
               <img src="/case-study/slider/slider1.png" alt="Slide 1" />
@@ -102,6 +103,31 @@
               <img src="/case-study/slider/slider1.png" alt="Slide 4" />
             </vue-tiny-slider>
           </no-ssr>
+        </div>
+      </section>
+      <section class="py-8 mt-8 md:py-16 bg-gray">
+        <div class="container mx-auto">
+          <div class="mx-auto md:w-10/12">
+            <h2 class="text-5xl font-bold leading-tight md:leading-none">
+              Jumpstarting Research
+            </h2>
+            <p class="mt-8">
+              My most recent work with
+              <a href="#" class="font-bold text-pink">Emerhub</a> where I
+              designed for some of its core offerings
+            </p>
+          </div>
+        </div>
+        <img
+          class="mx-auto mt-8"
+          src="/case-study/slider/slider1.png"
+          alt="Slide 4"
+        />
+        <div
+          class="container mx-auto mt-2 text-sm md:text-center text-dark-gray"
+        >
+          Fig: Competitive Analysis to identify best practices and opportunity
+          areas.
         </div>
       </section>
     </div>
