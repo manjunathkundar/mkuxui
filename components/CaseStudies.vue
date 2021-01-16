@@ -1,5 +1,5 @@
 <template>
-  <section class="grid grid-cols-1 gap-4 md:py-8 md:grid-cols-2">
+  <section class="mt-16 grid grid-cols-1 gap-8 md:py-8 md:grid-cols-2">
     <CaseStudie v-for="(study, index) in studies" :key="index" :study="study" />
   </section>
 </template>
@@ -15,20 +15,24 @@ export default {
     return {
       studies: [
         {
-          link: 'content-marketing',
-          image: '/case-study/1.png',
+          link: 'incorporation',
+          image: '/case-study/inc-thumb.png',
         },
         {
-          link: 'content-marketing',
-          image: '/case-study/2.png',
+          link: 'payroll',
+          image: '/case-study/pay-thumb.png',
         },
         {
-          link: 'content-marketing',
-          image: '/case-study/3.png',
+          link: 'diet-tracker',
+          image: '/case-study/diet-thumb.png',
         },
         {
-          link: 'content-marketing',
-          image: '/case-study/4.png',
+          link: 'rightpoi',
+          image: '/case-study/rightpoi-thumb.png',
+        },
+        {
+          link: 'logo-designs',
+          image: '/case-study/mk-thumb.png',
         },
       ],
     }

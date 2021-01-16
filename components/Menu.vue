@@ -19,7 +19,7 @@
     </button>
     <ul class="items-center hidden -ml-8 uppercase lg:flex">
       <li v-for="link in links" :key="link.name">
-        <nuxt-link class="ml-8 hover:text-pink" :to="link.to">
+        <nuxt-link class="ml-12 hover:text-pink" :to="link.to">
           {{ link.name }}
         </nuxt-link>
       </li>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div :class="[isCaseStudyPage ? 'bg-green' : 'bg-white']">
+    <div>
       <Header />
       <Nuxt />
     </div>
@@ -33,13 +33,28 @@ export default {
 html,
 body {
   font-family: 'Nunito', sans-serif;
+  line-height: 1.6;
   @apply text-black;
 }
 
-.container,
-.tns-outer {
+img,
+video {
+  width: 100%;
+}
+
+.container {
   max-width: 950px;
   @apply px-6 w-full mx-auto;
+}
+
+.large-container {
+  max-width: 1440px;
+  @apply w-full mx-auto;
+}
+
+.bullets li::before {
+  content: '•';
+  margin-right: 1em;
 }
 
 @media (min-width: 1024px) {
@@ -53,7 +68,7 @@ body {
 }
 
 .tns-nav button {
-  @apply p-1 rounded-full bg-gray ml-2;
+  @apply p-1 rounded-full bg-gray-500 ml-2;
 }
 
 .tns-nav .tns-nav-active {

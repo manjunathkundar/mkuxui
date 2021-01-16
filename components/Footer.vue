@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <footer
       class="flex flex-col items-center justify-around h-64 mt-8 text-center border-t border-gray"
     >
@@ -62,7 +62,7 @@
         </div>
 
         <div class="flex items-center justify-center mt-6">
-          <a href="#">
+          <a href="https://www.behance.net/manjunathkunder" target="_blank">
             <svg
               width="28"
               height="28"
@@ -88,7 +88,11 @@
               />
             </svg>
           </a>
-          <a href="#" class="ml-12">
+          <a
+            href="https://in.linkedin.com/in/manjunath-kunder-47316383"
+            target="_blank"
+            class="ml-12"
+          >
             <svg
               width="28"
               height="28"
