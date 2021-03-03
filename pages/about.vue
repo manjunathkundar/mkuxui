@@ -7,7 +7,7 @@
       <div class="max-w-2xl text-lg leading-8 text-dark-gray">
         <p class="mt-4">
           <strong
-            >I am Manjunath Kunder, a Product UX/UI Designer from Manipal,
+            >I am Manjunath, a Product UX/UI Designer from Manipal,
             India.</strong
           >
         </p>
@@ -51,7 +51,7 @@
         </p>
         <p class="mt-6 md:mt-8">
           <a
-            href="/case-study/Manjunath-CV.pdf"
+            href="/case-study/CV.pdf"
             target="_blank"
             class="inline-block w-full px-8 py-2 text-lg font-bold text-center border-2 md:text-left md:w-auto border-pink text-pink"
             >Résumé</a
