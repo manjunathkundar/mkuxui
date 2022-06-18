@@ -3,7 +3,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: [],
+  content: [],
   theme: {
     fontFamily: false,
     colors: {
@@ -15,6 +15,7 @@ module.exports = {
       gray: '#F1F5F9',
       green: '#BCF0DA',
       'blue-600': '#1C64F2',
+      'gray-300': '#CFD8E3',
       'gray-500': '#64748B',
       'blue-300': '#76A9FA',
       diet: '#11B4A3',

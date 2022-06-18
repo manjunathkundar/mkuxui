@@ -339,28 +339,28 @@
         <div class="grid grid-cols-2 gap-4 py-8 md:gap-8 md:grid-cols-4">
           <nuxt-link to="/case-study/payroll">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Pay-small-thumb.jpg"
               alt="Payroll"
             />
           </nuxt-link>
           <nuxt-link to="/case-study/diet-tracker">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Diet-small-thumb.jpg"
               alt="Diet Tracker"
             />
           </nuxt-link>
           <nuxt-link to="/case-study/rightpoi">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Right-small-thumb.jpg"
               alt="Rightpoi.."
             />
           </nuxt-link>
           <nuxt-link to="/case-study/logo-designs">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Mk-small-thumb.jpg"
               alt="Logo Designs"
             />

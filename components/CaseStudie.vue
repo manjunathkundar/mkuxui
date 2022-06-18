@@ -1,6 +1,6 @@
 <template>
   <nuxt-link :to="link">
-    <img :src="study.image" :alt="study.name" />
+    <img :src="study.image" :alt="study.name" class="rounded-3xl" />
   </nuxt-link>
 </template>
 

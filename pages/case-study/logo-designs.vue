@@ -200,28 +200,28 @@
         >
           <nuxt-link to="/case-study/incorporation">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Inc-small-thumb.jpg"
               alt="Payroll"
             />
           </nuxt-link>
           <nuxt-link to="/case-study/payroll">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Pay-small-thumb.jpg"
               alt="Payroll"
             />
           </nuxt-link>
           <nuxt-link to="/case-study/diet-tracker">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Diet-small-thumb.jpg"
               alt="Diet Tracker"
             />
           </nuxt-link>
           <nuxt-link to="/case-study/rightpoi">
             <img
-              class="w-full"
+              class="w-full rounded-2xl"
               src="/case-study/Right-small-thumb.jpg"
               alt="Rightpoi.."
             />
