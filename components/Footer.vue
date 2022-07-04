@@ -26,12 +26,12 @@
           >
             <img src="/linkedin.png" alt="" />
           </a>
-          <a href="https://www.behance.net/manjunathkunder" target="_blank">
+          <!-- <a href="https://www.behance.net/manjunathkunder" target="_blank">
             <img src="/behance.png" alt="" />
-          </a>
-          <!-- <a href="#" target="_blank" class="ml-12">
-            <img src="/dribble.png" alt="" />
           </a> -->
+          <a href="https://dribbble.com/mkuxui" target="_blank" class="ml-12">
+            <img src="/dribble.png" alt="" />
+          </a>
         </div>
       </div>
     </footer>
